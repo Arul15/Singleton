@@ -15,6 +15,7 @@
 		D16914CA1A28523700F21325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16914C91A28523700F21325 /* Images.xcassets */; };
 		D16914CD1A28523700F21325 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D16914CB1A28523700F21325 /* LaunchScreen.xib */; };
 		D16914D91A28523700F21325 /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D16914D81A28523700F21325 /* SingletonTests.m */; };
+		D16914E81A286E5900F21325 /* Generic.m in Sources */ = {isa = PBXBuildFile; fileRef = D16914E71A286E5900F21325 /* Generic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		D16914D21A28523700F21325 /* SingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16914D71A28523700F21325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D16914D81A28523700F21325 /* SingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonTests.m; sourceTree = "<group>"; };
+		D16914E61A286E5900F21325 /* Generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Generic.h; sourceTree = "<group>"; };
+		D16914E71A286E5900F21325 /* Generic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Generic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		D16914AD1A28523600F21325 = {
 			isa = PBXGroup;
 			children = (
+				D16914E61A286E5900F21325 /* Generic.h */,
+				D16914E71A286E5900F21325 /* Generic.m */,
 				D16914B81A28523600F21325 /* Singleton */,
 				D16914D51A28523700F21325 /* SingletonTests */,
 				D16914B71A28523600F21325 /* Products */,
@@ -226,6 +231,7 @@
 				D16914C21A28523600F21325 /* Singleton.xcdatamodeld in Sources */,
 				D16914C51A28523600F21325 /* ViewController.m in Sources */,
 				D16914BC1A28523600F21325 /* main.m in Sources */,
+				D16914E81A286E5900F21325 /* Generic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

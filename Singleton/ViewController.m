@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Generic.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+[Generic sharedMySingleton].pStrName = @"FAther";
+    
+    NSLog(@"[Generic sharedMySingleton].pStrName %@",[Generic sharedMySingleton].pStrName);
+    [Generic sharedMySingleton].pStrName = @"Dady";
+    NSLog(@"[Generic sharedMySingleton].pStrName %@",[Generic sharedMySingleton].pStrName);
+    [[Generic sharedMySingleton] sayhello];
+    NSLog(@"[Generic sharedMySingleton].pStrName %@",[Generic sharedMySingleton].pArrFruits);
+
 }
 
 - (void)didReceiveMemoryWarning {
